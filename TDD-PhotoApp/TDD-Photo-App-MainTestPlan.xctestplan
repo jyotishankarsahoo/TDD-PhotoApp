@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "CA22584D-6B94-42AC-8959-F0E2F9AC16EA",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TDD-PhotoApp.xcodeproj",
+        "identifier" : "E8B041E6253627C3004CEE92",
+        "name" : "TDD-PhotoAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:TDD-PhotoApp.xcodeproj",
+        "identifier" : "E819CE2125507CD6004DFB00",
+        "name" : "TDD-PhotoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

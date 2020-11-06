@@ -1,0 +1,51 @@
+{
+  "configurations" : [
+    {
+      "id" : "BC7F77A6-D1D1-4A7C-AFE3-312D724DFA12",
+      "name" : "Test URL 1",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupURL",
+            "value" : "http:\/\/appsdeveloperblog.com\/api\/v2\/signup-mock-service\/users"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "44349407-358E-4B3B-A0C3-912E4CBF4D0C",
+      "name" : "Test URL 2",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupURL",
+            "value" : "http:\/\/appsdeveloperblog.com:8080\/signup-mock-service\/users"
+          }
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "signupURL",
+        "value" : "http:\/\/appsdeveloperblog.com\/api\/v2\/signup-mock-service\/users"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TDD-PhotoApp.xcodeproj",
+      "identifier" : "E8B041CB253627A4004CEE92",
+      "name" : "TDD-PhotoApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TDD-PhotoApp.xcodeproj",
+        "identifier" : "E819CE2125507CD6004DFB00",
+        "name" : "TDD-PhotoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "09102DA2-19A8-468B-8F37-8D7C21368C57",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TDD-PhotoApp.xcodeproj",
+        "identifier" : "E8B041E6253627C3004CEE92",
+        "name" : "TDD-PhotoAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
